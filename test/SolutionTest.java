@@ -48,9 +48,10 @@ public class SolutionTest {
     public void testGetTotalX_case5() {
         List<Integer> a = Arrays.asList(2, 6);
         List<Integer> b = Arrays.asList(24, 36);
-        int expected = 1;
+        int expected = 2;
         int actual = Solution.getTotalX(a, b);
         assertEquals(expected, actual);
     }
+
 
 }
