@@ -28,7 +28,7 @@ public class BreakingBestRecord {
     }
 
     public static void main(String[] args) {
-        // Sample input
+
         List<Integer> scores = List.of(10, 5, 20, 20, 4, 5, 2, 25, 1);
         List<Integer> result = breakingRecords(scores);
         System.out.println(result.get(0) + " " + result.get(1));
